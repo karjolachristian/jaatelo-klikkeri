@@ -1,0 +1,64 @@
+body {
+  background-color: pink;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#jäätelö {
+  width: 200px;
+  height: 200px;
+  background-image: url('icecream.png');
+  background-size: cover;
+  margin: 50px auto;
+}
+
+#laskuri {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#klikkauspainike {
+  width: 150px;
+  cursor: pointer;
+}
+
+#ostaBoosteriPainike {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#ostaBoosteriPainike:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.boosteri-valikko {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.boosteri-valikko h2 {
+  margin-bottom: 10px;
+}
+
+.boosteri-valikko button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boosteri-valikko button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
